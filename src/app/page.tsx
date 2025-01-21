@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import Header from "../components/header";
-
+import Image from "next/image";
 export default function About() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
@@ -50,7 +50,7 @@ export default function About() {
             </p>
           </div>
           <div className="flex-shrink-0">
-            <img
+            <Image
               className="w-32 h-32 rounded-lg shadow-lg object-cover "
               src="/images/codesoc.jpg"
               alt="CodeSoc Logo"
