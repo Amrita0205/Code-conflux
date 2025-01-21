@@ -68,22 +68,7 @@ export default function HackathonOverview() {
               systems capable of learning and making decisions.
             </p>
           </div>
-          {/* Card 6: Deep Labs */}
-          <div className="p-6 rounded-xl overflow-hidden shadow-lg bg-gradient-to-r from-purple-500 to-pink-600 transform transition-transform duration-300 ease-out hover:scale-105">
-            <h3 className="text-2xl font-bold text-white mb-4">Deep Labs</h3>
-
-            <Image
-              src="/images/Deep.png"
-              alt="Deeplab Illustration"
-              width={400}
-              height={160}
-              className="w-full h-40 object-cover rounded-lg mb-4"
-            />
-            <p className="text-white">
-              Explore innovative technologies and advanced methodologies to
-              solve complex real-world problems.
-            </p>
-          </div>
+          
           {/* Card: Blockchain Technology */}
           <div className="p-6 rounded-xl overflow-hidden shadow-lg bg-gradient-to-br from-gray-800 via-purple-700 to-gray-900 transform transition-transform duration-300 ease-out hover:scale-105">
             <h3 className="text-2xl font-bold text-white mb-4">

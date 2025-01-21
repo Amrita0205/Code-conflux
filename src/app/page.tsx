@@ -2,6 +2,7 @@
 import { useState } from "react";
 import Header from "../components/header";
 import Image from "next/image";
+
 export default function About() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
@@ -51,9 +52,13 @@ export default function About() {
           </div>
           <div className="flex-shrink-0">
             <Image
-              className="w-32 h-32 rounded-lg shadow-lg object-cover "
+              // className="w-32 h-32 rounded-lg shadow-lg object-cover "
+              className="w-24 h-24 md:w-32 md:h-32 rounded-lg shadow-lg object-cover"
+
               src="/images/codesoc.jpg"
               alt="CodeSoc Logo"
+              width={128} // Explicit width
+              height={128} // Explicit height
             />
           </div>
         </div>
@@ -68,11 +73,11 @@ export default function About() {
           <div className="mt-4 text-lg text-gray-300 leading-relaxed">
             <p>
               This year, we are proud to introduce
-              <strong className="text-purple-400">Code Conflux</strong>, IIITR&apos;s
-              very own hackathon. What began as a vision has now transformed
-              into an inspiring reality. This initiative is designed to unite
-              the entire college community for a day of programming, offering
-              participants an unparalleled opportunity to explore their
+              <strong className="text-purple-400">Code Conflux</strong>,
+              IIITR&apos;s very own hackathon. What began as a vision has now
+              transformed into an inspiring reality. This initiative is designed
+              to unite the entire college community for a day of programming,
+              offering participants an unparalleled opportunity to explore their
               interests in technology and innovation.
             </p>
             <p className="mt-4">
@@ -84,8 +89,8 @@ export default function About() {
               collaboration and shared growth.
             </p>
             <p className="mt-4 font-semibold italic text-gray-100">
-            &quot;Code Conflux is more than a hackathon—it&apos;s a platform for
-              innovation, collaboration, and creating a vibrant community of
+              &quot;Code Conflux is more than a hackathon—it&apos;s a platform
+              for innovation, collaboration, and creating a vibrant community of
               tech enthusiasts driving meaningful change.&quot;
             </p>
           </div>

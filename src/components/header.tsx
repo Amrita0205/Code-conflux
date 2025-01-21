@@ -15,7 +15,7 @@ export default function Header() {
       <header className="custom-bg text-gray-200 w-full p-2">
         <div className="container mx-auto flex justify-between items-center py-5 px-6">
           {/* Logo and Title */}
-          <div className="flex items-center">
+          <div className="flex items-center gap-5">
             <Image
               className="rounded-full"
               src="/images/logo.jpeg" // Image path for public directory
@@ -43,7 +43,7 @@ export default function Header() {
               <span className="ml-2">&#9776;</span>
             </button>
             {isMenuOpen && (
-              <div className="absolute right-0 mt-2 bg-white text-black rounded-lg shadow-lg w-48">
+              <div className="absolute right-0 mt-2 bg-white text-black rounded-lg shadow-lg w-48 z-10 ">
                 <ul className="py-2">
                   <li className="px-4 py-2 hover:bg-gray-100">
                     <Link href="/">Home</Link>
@@ -66,7 +66,7 @@ export default function Header() {
           </div>
 
           {/* Navigation menu for larger screens */}
-          <nav className="hidden md:flex space-x-6">
+          <nav className="hidden md:flex space-x-6 ">
             <Link href="/" className="hover:text-gray-300">
               Home
             </Link>
