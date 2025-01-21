@@ -68,7 +68,7 @@ export default function About() {
           <div className="mt-4 text-lg text-gray-300 leading-relaxed">
             <p>
               This year, we are proud to introduce{" "}
-              <strong className="text-purple-400">Code Conflux</strong>, IIITR’s
+              <strong className="text-purple-400">Code Conflux</strong>, IIITR&apos;s
               very own hackathon. What began as a vision has now transformed
               into an inspiring reality. This initiative is designed to unite
               the entire college community for a day of programming, offering
@@ -84,7 +84,7 @@ export default function About() {
               collaboration and shared growth.
             </p>
             <p className="mt-4 font-semibold italic text-gray-100">
-              "Code Conflux is more than a hackathon—it’s a platform for
+              "Code Conflux is more than a hackathon—it&apos;s a platform for
               innovation, collaboration, and creating a vibrant community of
               tech enthusiasts driving meaningful change."
             </p>

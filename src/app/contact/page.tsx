@@ -24,7 +24,7 @@ export default function ContactUs() {
       <div className="p-6 m-4">
         <h2 className="text-4xl font-bold text-white mb-6">Contact Us</h2>
         <p className="text-lg text-gray-300 mb-8">
-          We’d love to hear from you! Feel free to reach out for any queries,
+          We&apos;d love to hear from you! Feel free to reach out for any queries,
           feedback, or support.
         </p>
         <div className="bg-gray-800 p-8 rounded-lg shadow-lg">
