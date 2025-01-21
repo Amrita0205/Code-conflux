@@ -5,7 +5,7 @@ import Header from "../../components/header";
 export default function About() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
-  const handleMouseMove = (event: any) => {
+  const handleMouseMove = (event:React.MouseEvent<HTMLDivElement>) => {
     const { clientX, clientY } = event;
     const card = event.currentTarget.getBoundingClientRect();
     const x = (clientX - card.left - card.width / 2) / 40;

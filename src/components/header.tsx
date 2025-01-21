@@ -1,6 +1,7 @@
 "use client"; // required to use the react things in our next.js
 import Link from "next/link";
 import React, { useState } from "react";
+import Image from "next/image"; // Importing Next.js Image component
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,19 +16,21 @@ export default function Header() {
         <div className="container mx-auto flex justify-between items-center py-5 px-6">
           {/* Logo and Title */}
           <div className="flex items-center">
-            <img
-              className="rounded-full w-20 h-20 mr-3"
-              src="/images/logo.jpeg"
+            <Image
+              className="rounded-full"
+              src="/images/logo.jpeg" // Image path for public directory
               alt="Logo"
+              width={80}  // Width of the image (set to fit your design)
+              height={80} // Height of the image (set to fit your design)
             />
-            <a href="/" className="block">
+            <Link href="/" className="block">
               <h1 className="font-bold text-4xl md:text-5xl lg:text-6xl">
                 Code Conflux
               </h1>
               <p className="text-sm md:text-base text-gray-400 italic font-medium">
                 by IIIT Raichur
               </p>
-            </a>
+            </Link>
           </div>
 
           {/* Hamburger menu on smaller screens */}
@@ -48,7 +51,6 @@ export default function Header() {
                   <li className="px-4 py-2 hover:bg-gray-100">
                     <Link href="/hackathonoverview">Hackathon Overview</Link>
                   </li>
-                  
                   <li className="px-4 py-2 hover:bg-gray-100">
                     <Link href="/problem">Problem Statements</Link>
                   </li>
@@ -68,7 +70,6 @@ export default function Header() {
             <Link href="/" className="hover:text-gray-300">
               Home
             </Link>
-            
             <Link href="/hackathonoverview" className="hover:text-gray-300">
               Hackathon Overview
             </Link>

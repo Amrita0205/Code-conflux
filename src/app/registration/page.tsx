@@ -1,6 +1,8 @@
 "use client";
 import Header from "../../components/header";
 import { useState } from "react";
+import Link from "next/link"; // Import Link component
+
 
 export default function RegistrationForm() {
   const [hover, setHover] = useState(false);
@@ -64,14 +66,14 @@ export default function RegistrationForm() {
   {/* Text when hovered */}
   {hover && (
     <div className="ml-4">
-      <a
+      <Link
         href="https://docs.google.com/forms/d/e/1FAIpQLScK_uojgpOBnSTRXDdm7jZH5NCaxLBX1nGIaraeJNdiAqZpcg/viewform"
         target="_blank"
         rel="noopener noreferrer"
         className="no-underline text-sm font-medium  hover:underline transition-opacity duration-300 ease-in-out"
       >
        <span className="text-gray-200">Open the Registration Form in a New Tab</span> 
-      </a>
+      </Link>
     </div>
   )}
 </div>

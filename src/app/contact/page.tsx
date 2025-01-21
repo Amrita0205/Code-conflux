@@ -1,5 +1,6 @@
 "use client";
 import Header from "../../components/header";
+import Link from "next/link"; // Import Link component
 
 export default function ContactUs() {
   const organizers = [
@@ -12,7 +13,6 @@ export default function ContactUs() {
     { name: "Dhanush", role: "Core Team Member" },
     { name: "Lalith Karthik", role: "Core Team Member" },
     { name: "Santhosh", role: "Core Team Member" },
-    
   ];
 
   return (
@@ -37,11 +37,11 @@ export default function ContactUs() {
           </p>
           <div>
             <p className="text-lg font-medium text-gray-200">Email:</p>
-            <p className="text-blue-400 hover:underline">
-              <a href="mailto:code_soc@students.iiitr.ac.in">
+            <Link href="mailto:code_soc@students.iiitr.ac.in">
+              <p className="text-blue-400 hover:underline">
                 code_soc@students.iiitr.ac.in
-              </a>
-            </p>
+              </p>
+            </Link>
           </div>
         </div>
       </div>
@@ -57,7 +57,6 @@ export default function ContactUs() {
               key={index}
               className="relative p-6 bg-gradient-to-br from-gray-800 via-purple-700 to-gray-900 rounded-xl shadow-md transform transition-transform duration-300 hover:scale-105"
             >
-             
               <div>
                 <h3 className="text-xl font-semibold text-white mb-2">
                   {organizer.name}
