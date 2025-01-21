@@ -174,7 +174,7 @@ export default function HackathonOverview() {
           </li>
           <li>
             Existing projects (e.g., from GitHub) cannot be directly used, but
-            inspiration can be taken. Yes,{" "}
+            inspiration can be taken. Yes,
             <strong>AI tools like ChatGPT</strong> are allowed.
           </li>
           <li>

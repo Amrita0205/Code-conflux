@@ -84,9 +84,9 @@ export default function About() {
               collaboration and shared growth.
             </p>
             <p className="mt-4 font-semibold italic text-gray-100">
-              "Code Conflux is more than a hackathon—it&apos;s a platform for
+            &quot;Code Conflux is more than a hackathon—it&apos;s a platform for
               innovation, collaboration, and creating a vibrant community of
-              tech enthusiasts driving meaningful change."
+              tech enthusiasts driving meaningful change.&quot;
             </p>
           </div>
         </div>
