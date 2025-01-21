@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import Header from "../components/header";
+import Header from "../../components/header";
 
 export default function About() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
@@ -21,7 +21,7 @@ export default function About() {
     <div>
       <Header />
       <div
-        className="p-6 m-3 rounded-xl overflow-hidden shadow-lg bg-gradient-to-br from-gray-800 via-purple-700 to-gray-900 transition-transform duration-300 ease-out"
+        className="p-6 m-3 rounded-xl overflow-hidden shadow-lg bg-gradient-to-r from-gray-700 via-gray-800 to-gray-900 transition-transform duration-300 ease-out"
         // This is how the gradient color comes
         style={{
           transform: `rotateX(${mousePosition.y}deg) rotateY(${mousePosition.x}deg)`,
