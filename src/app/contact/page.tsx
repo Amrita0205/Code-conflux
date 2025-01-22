@@ -13,6 +13,7 @@ export default function ContactUs() {
     { name: "Dhanush", role: "Core Team Member" },
     { name: "Lalith Karthik", role: "Core Team Member" },
     { name: "Santhosh", role: "Core Team Member" },
+    { name: "Deva Anand", role: "CodeSoc Club Volunteer" },
   ];
 
   return (
