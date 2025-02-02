@@ -21,7 +21,7 @@ export default function ContactUs() {
         </p>
 
         {/* Download Button */}
-        <Link href="/images/PROBLEM STATEMENTS.pdf" download>
+        <Link href="/images/PROBLEM STATEMENTS2.pdf" download>
           <button className="mt-2 flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 text-lg font-semibold rounded-lg shadow-lg transition-transform transform hover:scale-105">
             <FaDownload />
             Download Problem Statement
