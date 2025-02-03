@@ -6,29 +6,23 @@ export default function ContactUs() {
   const organizers = [
     // Mentor
     { name: "Disha Agarwal", role: "Mentor" },
-
+  
+    // Co-ordinators
     { name: "Swastik", role: "Co-ordinator" },
     { name: "Amrita Kadam", role: "Co-ordinator" },
-    {
-      name: "Soham Tanaji Umbare",
-      role: "Deeplabs Club Co-ordinator & Core Team Member",
-    },
+    { name: "Soham Tanaji Umbare", role: "Deeplabs Club Co-ordinator & Core Team Member" },
     { name: "Soham Bit", role: "Deeplabs Club Co-ordinator" },
     { name: "Satyajeet", role: "DevX Club Co-ordinator" },
-    { name: "Sai Praneeth", role: "Stage and Studio Club Co-ordinator" },
-
     { name: "Rahul Yadav", role: "Sci-Tech Society Club Operation Lead" },
-
-    { name: "Anuja Gupta", role: "Core Team Member" },
-    { name: "Dhanush", role: "Core Team Member" },
     { name: "Lalith Karthik", role: "Core Team Member" },
+    { name: "Dhanush", role: "Core Team Member" },
+    { name: "Anuja Gupta", role: "Core Team Member" },
     { name: "Santhosh", role: "Core Team Member" },
-
     { name: "Deva Anand", role: "CodeSoc Club Volunteer" },
-
-    { name: "Jashwanth", role: "Volunteer" },
-    { name: "Sarthak", role: "Volunteer" },
-    { name: "Nitin", role: "Volunteer" },
+    { name: "Jashwanth", role: "PR Team" },
+    { name: "Sarthak", role: "PR Team" },
+    { name: "Sai Praneeth", role: "Refreshments Incharge" },
+    { name: "Nitin", role: "Refreshments Incharge" }
   ];
 
   return (

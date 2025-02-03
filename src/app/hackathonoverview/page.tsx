@@ -160,7 +160,7 @@ export default function HackathonOverview() {
           <li>
             Existing projects (e.g., from GitHub) cannot be directly used, but
             inspiration can be taken. Yes,
-            <strong>AI tools like ChatGPT</strong> are allowed.
+            <strong> AI tools like ChatGPT</strong> are allowed.
           </li>
           <li>
             Use of unfair means, cheating, or plagiarism during the event will
