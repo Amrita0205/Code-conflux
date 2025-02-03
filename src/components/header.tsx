@@ -54,9 +54,9 @@ export default function Header() {
                   <li className="px-4 py-2 hover:bg-gray-100">
                     <Link href="/problem">Problem Statements</Link>
                   </li>
-                  <li className="px-4 py-2 hover:bg-gray-100">
+                  {/* <li className="px-4 py-2 hover:bg-gray-100">
                     <Link href="/registration">Registration</Link>
-                  </li>
+                  </li> */}
                   <li className="px-4 py-2 hover:bg-gray-100">
                     <Link href="/contact">Contact Us</Link>
                   </li>
@@ -76,9 +76,9 @@ export default function Header() {
             <Link href="/problem" className="hover:text-gray-300">
               Problem Statements
             </Link>
-            <Link href="/registration" className="hover:text-gray-300">
+            {/* <Link href="/registration" className="hover:text-gray-300">
               Registration
-            </Link>
+            </Link> */}
             <Link href="/contact" className="hover:text-gray-300">
               Contact Us
             </Link>

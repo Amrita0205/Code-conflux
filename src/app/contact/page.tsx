@@ -4,16 +4,31 @@ import Link from "next/link"; // Import Link component
 
 export default function ContactUs() {
   const organizers = [
+    // Mentor
     { name: "Disha Agarwal", role: "Mentor" },
+
     { name: "Swastik", role: "Co-ordinator" },
     { name: "Amrita Kadam", role: "Co-ordinator" },
-    { name: "Soham Tanaji Umbare", role: "Deeplabs club Co-ordinator and Core Team Member" },
-    { name: "Soham Bit", role: "Deeplabs club Co-ordinator" },
+    {
+      name: "Soham Tanaji Umbare",
+      role: "Deeplabs Club Co-ordinator & Core Team Member",
+    },
+    { name: "Soham Bit", role: "Deeplabs Club Co-ordinator" },
+    { name: "Satyajeet", role: "DevX Club Co-ordinator" },
+    { name: "Sai Praneeth", role: "Stage and Studio Club Co-ordinator" },
+
+    { name: "Rahul Yadav", role: "Sci-Tech Society Club Operation Lead" },
+
     { name: "Anuja Gupta", role: "Core Team Member" },
     { name: "Dhanush", role: "Core Team Member" },
     { name: "Lalith Karthik", role: "Core Team Member" },
     { name: "Santhosh", role: "Core Team Member" },
+
     { name: "Deva Anand", role: "CodeSoc Club Volunteer" },
+
+    { name: "Jashwanth", role: "Volunteer" },
+    { name: "Sarthak", role: "Volunteer" },
+    { name: "Nitin", role: "Volunteer" },
   ];
 
   return (
@@ -25,8 +40,8 @@ export default function ContactUs() {
       <div className="p-6 m-4">
         <h2 className="text-4xl font-bold text-white mb-6">Contact Us</h2>
         <p className="text-lg text-gray-300 mb-8">
-          We&apos;d love to hear from you! Feel free to reach out for any queries,
-          feedback, or support.
+          We&apos;d love to hear from you! Feel free to reach out for any
+          queries, feedback, or support.
         </p>
         <div className="bg-gray-800 p-8 rounded-lg shadow-lg">
           <h3 className="text-2xl font-semibold text-white mb-4">
